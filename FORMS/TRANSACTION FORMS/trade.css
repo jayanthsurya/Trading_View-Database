@@ -1,0 +1,27 @@
+body{
+    background-image: url("trade.jpg");
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    }
+    .container{
+    top: 30%; /* here iam using % because if we are 
+    giving in px we need to give larger value */
+    left: 35%;
+    position: absolute; /* we can move to any part of the 
+    webpage */
+    padding: 2px 10px 15px 35px;
+    background-color: rgba(0, 0, 0, 0.6) ;
+    border-radius: 5px;
+    color: rgb(240, 255, 244);
+    }
+    #xxx{
+    border-radius: 5px;
+    color: black;
+    }
+    h2{
+    padding: 5px 60px;
+    }
