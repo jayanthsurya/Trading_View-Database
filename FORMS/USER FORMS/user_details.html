@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REGISTRATION-FORM</title>
+  <link rel="stylesheet" href="user_details.css">
+  <style>
+    body {
+      background-image: url("user_details.jpg");
+      font-family: 'Times New Roman', Times, serif;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0px;
+      padding: 0px;
+    }
+    .container {
+      top: 30%;
+      left: 35%;
+      position: absolute;
+      padding: 2px 10px 15px 35px;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 5px;
+      color: rgb(240, 255, 244);
+    }
+    #xxx {
+      border-radius: 5px;
+      color: black;
+    }
+    h2 {
+      padding: 5px 60px;
+    }
+    .custom-link {
+      color: antiquewhite;
+    }
+    .li1 {
+      color: antiquewhite;
+    }
+    .li2 {
+      color: antiquewhite;
+    }
+  </style>
+</head>
+<body>
+  <form action="/register" method="post"> <!-- Updated action attribute -->
+    <div class="container">
+      <h2>USER REGISTRATION</h2>
+      <div class="con">
+        <label>Username : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp;</label>
+        <input type="text" name="username" maxlength="30" required id="xxx">
+      </div>
+      <br><br>
+      <div class="con">
+        <label>Email_id : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp;</label>
+        <input type="email" name="email" maxlength="30" required id="xxx">
+      </div>
+      <br><br>
+      <div class="con">
+        <label>Password :&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+          &nbsp;</label>
+        <input type="password" name="password" maxlength="30" required id="xxx">
+      </div>
+      <br><br>
+      <div class="con">
+        <label>Confirm Password: &nbsp; &nbsp; &nbsp;
+          &nbsp;</label>
+        <input type="password" name="confirmPassword" maxlength="30" required id="xxx">
+      </div>
+      <br><br>
+      <div class="con">
+        <label><input type="checkbox" unchecked>I agree to the <a
+          href="" class="li1">TERMS</a> and <a href="" class="li2">CONDITIONS</a></label>
+      </div>
+      <br><br>
+      <div class="con">
+        <button type="submit">Register</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>
+          <a href="" class="custom-link">Already an User?</a>
+        </label>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
